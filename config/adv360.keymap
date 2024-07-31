@@ -58,6 +58,21 @@
             bindings = <&kp LG(LC(T))>;
             key-positions = <32 31>;
         };
+
+        window_to_left {
+            bindings = <&kp LC(LS(NUMBER_4))>;
+            key-positions = <16 17>;
+        };
+
+        window_to_right {
+            bindings = <&kp LC(LS(N5))>;
+            key-positions = <17 18>;
+        };
+
+        window_to_center_large {
+            bindings = <&kp LC(LS(NUMBER_6))>;
+            key-positions = <17 18 16>;
+        };
     };
 
     keymap {
