@@ -30,8 +30,6 @@
             quick_tap_ms = <175>;
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
-
-            hold-trigger-on-release;
         };
 
         td: td {
@@ -67,21 +65,21 @@
 
         default_layer {
             bindings = <
-&kp EQUAL  &hm F2 N1    &kp N2                       &hm F4 N3    &kp N4       &kp N5           &tog 1           &mo 3          &kp N6         &kp N7     &kp N8         &kp N9     &kp N0     &hm F12 MINUS
-&kp TAB    &kp Q        &kp W                        &kp E        &kp R        &hm LG(LC(T)) T  &kp KP_N1        &kp KP_N3      &kp Y          &kp U      &kp I          &kp O      &kp P      &kp LBKT
-&kp ESC    &hm RC(A) A  &hm RC(S) S                  &hm LC(H) D  &hm LC(F) F  &kp G            &kp KP_NUMBER_2  &mt LCTRL ESC  &mt LALT LWIN                            &kp RWIN   &kp RCTRL  &kp KP_N4      &kp H     &kp J  &kp K      &hm LC(L) L  &kp SEMI  &kp SQT
-&kp LSHFT  &hm LC(Z) Z  &hm LC(X) X                  &hm LC(C) C  &hm LC(V) V  &kp B            &none            &none          &kp HOME       &none      &none          &kp PG_UP  &none      &none          &kp N     &kp M  &kp COMMA  &kp DOT      &kp FSLH  &kp RSHFT
-&mo 2      &kp GRAVE    &mt CAPSLOCK LC(LEFT_SHIFT)  &kp LEFT     &kp RIGHT    &kp SPACE        &kp DEL          &kp END        &kp PG_DN      &kp ENTER  &kp BACKSPACE  &kp UP     &kp DOWN   &kp BSLH       &kp RBKT  &mo 2
+&kp EQUAL  &hm F2 N1    &kp N2                       &hm F4 N3               &kp N4                  &kp N5           &tog 1           &mo 3          &kp N6         &kp N7     &kp N8         &kp N9     &kp N0     &hm F12 MINUS
+&kp TAB    &kp Q        &hm LC(LS(NUMBER_1)) W       &hm LC(LS(NUMBER_2)) E  &hm LC(LS(NUMBER_3)) R  &hm LG(LC(T)) T  &kp KP_N1        &kp KP_N3      &kp Y          &kp U      &kp I          &kp O      &kp P      &kp LBKT
+&kp ESC    &hm RC(A) A  &hm RC(S) S                  &hm LC(H) D             &hm LC(F) F             &kp G            &kp KP_NUMBER_2  &mt LCTRL ESC  &mt LALT LWIN                            &kp RWIN   &kp RCTRL  &kp KP_N4      &kp H     &kp J  &kp K      &hm LC(L) L  &kp SEMI  &kp SQT
+&kp LSHFT  &hm LC(Z) Z  &hm LC(X) X                  &hm LC(C) C             &hm LC(V) V             &kp B            &none            &none          &kp HOME       &none      &none          &kp PG_UP  &none      &none          &kp N     &kp M  &kp COMMA  &kp DOT      &kp FSLH  &kp RSHFT
+&mo 2      &kp GRAVE    &mt CAPSLOCK LC(LEFT_SHIFT)  &kp LEFT                &kp RIGHT               &kp SPACE        &kp DEL          &kp END        &kp PG_DN      &kp ENTER  &kp BACKSPACE  &kp UP     &kp DOWN   &kp BSLH       &kp RBKT  &mo 2
             >;
         };
 
         layer_keypad {
             bindings = <
-&kp EQUAL  &kp N1     &kp N2       &kp N3       &kp N4       &kp N5    &trans   &mo 3    &kp N6     &kp KP_NUM  &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp KP_MINUS  &mt F12 MINUS
-&kp TAB    &kp Q      &kp W        &kp E        &kp R        &kp T     &kp F13  &trans   &kp Y      &kp KP_N7   &kp KP_N8      &kp KP_N9        &kp KP_PLUS   &kp BSLH
-&kp ESC    &trans     &kp S        &kp D        &hm LC(F) F  &kp G     &kp F14  &trans   &trans                                &trans           &trans        &trans         &kp H     &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_PLUS   &kp SQT
-&kp LSHFT  &kp Z      &hm LC(X) X  &hm RC(C) C  &hm RC(V) V  &kp B     &none    &none    &kp HOME   &none       &none          &kp PG_UP        &none         &none          &kp N     &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_ENTER  &kp RSHFT
-&mo 2      &kp GRAVE  &kp CAPS     &kp LEFT     &kp RIGHT    &kp BSPC  &kp DEL  &kp END  &kp PG_DN  &kp ENTER   &kp KP_N0      &kp UP           &kp DOWN      &kp KP_DOT     &kp RBKT  &mo 2
+&kp EQUAL  &kp N1     &kp N2  &kp N3    &kp N4     &kp N5    &trans   &mo 3    &kp N6     &kp KP_NUM  &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp KP_MINUS  &trans
+&kp TAB    &kp Q      &kp W   &kp E     &kp R      &kp T     &kp F13  &trans   &kp Y      &kp KP_N7   &kp KP_N8      &kp KP_N9        &kp KP_PLUS   &kp BSLH
+&kp ESC    &trans     &kp S   &kp D     &trans     &kp G     &kp F14  &trans   &trans                                &trans           &trans        &trans      &kp H     &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_PLUS   &kp SQT
+&kp LSHFT  &kp Z      &trans  &trans    &trans     &trans    &none    &none    &kp HOME   &none       &none          &kp PG_UP        &none         &none       &kp N     &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_ENTER  &kp RSHFT
+&mo 2      &kp GRAVE  &trans  &kp LEFT  &kp RIGHT  &kp BSPC  &kp DEL  &kp END  &kp PG_DN  &kp ENTER   &kp KP_N0      &kp UP           &kp DOWN      &kp KP_DOT  &kp RBKT  &mo 2
             >;
         };
 
@@ -105,7 +103,7 @@
             >;
         };
 
-        layer_Test_Layer__4 {
+        layer_Test {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
