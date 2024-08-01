@@ -80,7 +80,6 @@
             bindings = <&kp LC(LA(LS(TAB)))>;
             key-positions = <15 16>;
             timeout-ms = <250>;
-            layers = <1>;
         };
     };
 
