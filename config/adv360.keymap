@@ -30,9 +30,6 @@
             quick_tap_ms = <175>;
             flavor = "balanced";
             bindings = <&kp>, <&kp>;
-
-            hold-trigger-on-release;
-            hold-trigger-key-positions = <13>;
         };
 
         td: td {
