@@ -84,13 +84,13 @@
 
         enter {
             bindings = <&kp ENTER>;
-            key-positions = <29 30>;
+            key-positions = <33 32>;
             timeout-ms = <250>;
         };
 
         backspace {
             bindings = <&kp BACKSPACE>;
-            key-positions = <32 33>;
+            key-positions = <34 33>;
         };
     };
 
