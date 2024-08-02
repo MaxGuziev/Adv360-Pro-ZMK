@@ -81,6 +81,17 @@
             key-positions = <15 16>;
             timeout-ms = <250>;
         };
+
+        enter {
+            bindings = <&kp ENTER>;
+            key-positions = <29 30>;
+            timeout-ms = <250>;
+        };
+
+        backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <32 33>;
+        };
     };
 
     keymap {
