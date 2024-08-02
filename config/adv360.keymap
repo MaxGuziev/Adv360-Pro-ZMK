@@ -68,24 +68,24 @@
             bindings = <&kp LG(LC(T))>;
             key-positions = <32 31>;
             timeout-ms = <250>;
-            layers = <1>;
+            layers = <5>;
         };
 
         window_to_left {
             bindings = <&kp LC(LS(NUMBER_4))>;
-            key-positions = <16 17>;
+            key-positions = <16 17 71>;
             timeout-ms = <300>;
         };
 
         window_to_right {
             bindings = <&kp LC(LS(N5))>;
-            key-positions = <17 18>;
+            key-positions = <17 18 71>;
             timeout-ms = <300>;
         };
 
         window_to_center_large {
             bindings = <&kp LC(LS(NUMBER_6))>;
-            key-positions = <17 18 16>;
+            key-positions = <17 18 16 71>;
             timeout-ms = <300>;
         };
 
@@ -104,6 +104,7 @@
         backspace {
             bindings = <&kp BACKSPACE>;
             key-positions = <34 33>;
+            layers = <5>;
         };
     };
 
@@ -152,11 +153,21 @@
 
         Layer_Excel {
             bindings = <
-&trans  &trans  &trans  &trans       &trans             &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans       &trans             &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &kp PAGE_UP  &kp LC(PAGE_DOWN)  &kp LC(LS(RIGHT))  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans       &trans             &kp LC(RS(DOWN))   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans       &trans             &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans            &trans             &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &kp LG(UP_ARROW)  &trans             &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &kp LC(PAGE_UP)   &kp LC(PAGE_DOWN)  &kp LC(LS(RIGHT))  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &kp LG(DOWN)      &kp BACKSPACE      &kp LC(RS(DOWN))   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &kp LG(LEFT)      &kp LG(RIGHT)      &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        tech {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
