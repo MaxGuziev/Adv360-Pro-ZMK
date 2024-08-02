@@ -99,7 +99,6 @@
             bindings = <&kp ENTER>;
             key-positions = <33 32>;
             timeout-ms = <250>;
-            require-prior-idle-ms = <500>;
         };
 
         backspace {
