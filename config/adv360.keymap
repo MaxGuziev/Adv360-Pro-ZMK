@@ -59,14 +59,6 @@
             bindings = <>;
             label = "CHANGE_LANGUAGE";
         };
-
-        excel_all_books: new_macro {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&macro_tap>, <&kp LEFT_ALT &kp NUMBER_0 &kp N>;
-
-            label = "NEW_MACRO";
-        };
     };
 
     combos {
@@ -161,11 +153,11 @@
 
         Layer_Excel {
             bindings = <
-&trans            &trans        &trans        &trans              &trans             &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&excel_all_books  &kp LA(TAB)   &trans        &kp LG(UP_ARROW)    &kp LA(TAB)        &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans            &kp LC(HOME)  &kp LG(LEFT)  &kp LG(DOWN_ARROW)  &kp LG(RIGHT)      &kp LC(LS(RIGHT))  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans            &kp LC(END)   &trans        &kp LC(PAGE_UP)     &kp LC(PAGE_DOWN)  &kp LC(RS(DOWN))   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans            &trans        &trans        &trans              &trans             &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans        &trans        &trans              &trans             &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LA(TAB)   &trans        &kp LG(UP_ARROW)    &kp LA(TAB)        &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LC(HOME)  &kp LG(LEFT)  &kp LG(DOWN_ARROW)  &kp LG(RIGHT)      &kp LC(LS(RIGHT))  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LC(END)   &trans        &kp LC(PAGE_UP)     &kp LC(PAGE_DOWN)  &kp LC(RS(DOWN))   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans        &trans        &trans              &trans             &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
