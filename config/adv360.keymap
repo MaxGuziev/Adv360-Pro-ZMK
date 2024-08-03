@@ -29,6 +29,30 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        ctr+shift+alt+tab {
+            bindings = <&kp LC(LA(LS(TAB)))>;
+            key-positions = <15 16>;
+        };
+
+        enter {
+            bindings = <&kp RETURN>;
+            key-positions = <33 32>;
+        };
+
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <33 31>;
+        };
+
+        backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <33 34>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
