@@ -69,9 +69,14 @@
             key-positions = <58 57>;
         };
 
-        chrome {
+        sublime_text {
             bindings = <&kp LC(LA(LS(S)))>;
             key-positions = <30 19>;
+        };
+
+        teems {
+            bindings = <&kp LC(LA(LS(S)))>;
+            key-positions = <19 17>;
         };
     };
 
