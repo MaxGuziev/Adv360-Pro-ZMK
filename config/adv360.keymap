@@ -75,7 +75,7 @@
         };
 
         teems {
-            bindings = <&kp LC(LA(LS(S)))>;
+            bindings = <&kp LC(LA(LS(E)))>;
             key-positions = <19 17>;
         };
     };
@@ -85,11 +85,11 @@
 
         Default_Layer {
             bindings = <
-&kp EQUAL  &hm F2 NUMBER_1  &kp NUMBER_2             &hm F4 NUMBER_3         &kp N4                  &kp N5               &tog 2                                                                             &mo 4            &kp N6  &kp N7  &kp N8                  &kp N9                &kp N0              &kp MINUS
-&kp TAB    &kp Q            &hm LC(LS(NUMBER_1)) W   &hm LC(LS(NUMBER_2)) E  &hm LC(LS(NUMBER_3)) R  &hm LC(LA(LS(T))) T  &mt LA(NUMBER_5) KP_N1                                                             &kp KP_NUMBER_4  &kp Y   &kp U   &kp I                   &kp O                 &kp P               &kp LEFT_BRACKET
-&kp ESC    &kp A            &hm_shift LCTRL S        &hm_shift LEFT_SHIFT D  &hm EQUAL F             &hm LC(LA(LS(G))) G  &kp KP_N2               &kp LCTRL     &mt LALT LEFT_WIN      &kp RMETA  &kp RCTRL  &kp KP_NUMBER_4  &kp H   &kp J   &hm_shift LEFT_SHIFT K  &hm LC(L) L           &kp SEMI            &kp SQT
-&kp LSHFT  &kp Z            &kp X                    &hm LC(C) C             &hm LC(V) V             &hm COMMA B                                                &kp HOME               &kp PG_UP                              &kp N   &kp M   &kp COMMA               &kp DOT               &hm LC(FSLH) SLASH  &kp RSHFT
-&mo 3      &kp GRAVE        &mt CAPS LC(LEFT_SHIFT)  &hm LA(LEFT) LEFT       &hm LA(RIGHT) RIGHT                          &lt 1 SPACE             &lt 1 DELETE  &kp END                &kp PG_DN  &kp ENTER  &kp BACKSPACE            &kp UP  &kp DOWN                &kp NON_US_BACKSLASH  &kp RBKT            &mo 3
+&kp EQUAL  &hm F2 NUMBER_1  &kp NUMBER_2             &hm F4 NUMBER_3         &kp N4                  &kp N5               &tog 6                                                                             &mo 4            &kp N6  &lt 6 N7  &kp N8                  &kp N9                &kp N0              &kp MINUS
+&kp TAB    &kp Q            &hm LC(LS(NUMBER_1)) W   &hm LC(LS(NUMBER_2)) E  &hm LC(LS(NUMBER_3)) R  &hm LC(LA(LS(T))) T  &mt LA(NUMBER_5) KP_N1                                                             &kp KP_NUMBER_4  &kp Y   &kp U     &kp I                   &kp O                 &kp P               &kp LEFT_BRACKET
+&kp ESC    &kp A            &hm_shift LCTRL S        &hm_shift LEFT_SHIFT D  &hm EQUAL F             &hm LC(LA(LS(G))) G  &kp KP_N2               &kp LCTRL     &mt LALT LEFT_WIN      &kp RMETA  &kp RCTRL  &kp KP_NUMBER_4  &kp H   &kp J     &hm_shift LEFT_SHIFT K  &hm LC(L) L           &kp SEMI            &kp SQT
+&kp LSHFT  &kp Z            &kp X                    &hm LC(C) C             &hm LC(V) V             &hm COMMA B                                                &kp HOME               &kp PG_UP                              &kp N   &kp M     &kp COMMA               &kp DOT               &hm LC(FSLH) SLASH  &kp RSHFT
+&mo 3      &kp GRAVE        &mt CAPS LC(LEFT_SHIFT)  &hm LA(LEFT) LEFT       &hm LA(RIGHT) RIGHT                          &lt 1 SPACE             &lt 1 DELETE  &kp END                &kp PG_DN  &kp ENTER  &kp BACKSPACE            &kp UP    &kp DOWN                &kp NON_US_BACKSLASH  &kp RBKT            &mo 3
             >;
         };
 
@@ -140,6 +140,16 @@
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        Keypad_V2 {
+            bindings = <
+&kp EQUAL  &kp N1     &kp N2    &kp N3    &kp N4     &kp N5  &trans                                                    &trans    &trans  &lt 0 N7  &kp FSLH  &kp LS(N8)        &trans         &trans
+&kp TAB    &kp Q      &kp W     &kp E     &kp R      &kp T   &none                                                     &none     &kp Y   &kp N7    &kp N8    &kp N9            &kp MINUS      &kp BSLH
+&kp ESC    &kp A      &kp S     &kp D     &kp F      &kp G   &none      &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none     &kp H   &kp N4    &kp N5    &kp N6            &kp LS(EQUAL)  &kp SQT
+&kp LSHFT  &kp Z      &kp X     &kp C     &kp V      &kp B                         &kp HOME      &kp PG_UP                       &kp N   &kp N1    &kp N2    &kp N3            &kp ENTER      &kp RSHFT
+&mo 3      &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT          &kp SPACE  &kp DEL    &kp END       &kp PG_DN  &kp ENTER  &kp BSPC          &kp N0    &kp N0    &hm COMMA PERIOD  &kp RBKT       &mo 3
             >;
         };
     };
