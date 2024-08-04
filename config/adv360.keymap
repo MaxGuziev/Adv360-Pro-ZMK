@@ -65,11 +65,11 @@
 
         Default_Layer {
             bindings = <
-&kp EQUAL  &hm F2 NUMBER_1  &kp NUMBER_2             &hm F4 NUMBER_3         &kp N4                  &kp N5               &tog 2                                                                                 &mo 4            &kp N6  &kp N7  &kp N8                  &kp N9                &kp N0              &kp MINUS
-&kp TAB    &kp Q            &hm LC(LS(NUMBER_1)) W   &hm LC(LS(NUMBER_2)) E  &hm LC(LS(NUMBER_3)) R  &kp T                &mt LA(NUMBER_5) KP_N1                                                                 &kp KP_NUMBER_4  &kp Y   &kp U   &kp I                   &kp O                 &kp P               &kp LEFT_BRACKET
-&kp ESC    &kp A            &kp S                    &hm_shift LEFT_SHIFT D  &hm EQUAL F             &hm LC(LA(LS(G))) G  &kp KP_N2               &mt LCTRL ESCAPE  &mt LALT LEFT_WIN      &kp RMETA  &kp RCTRL  &kp KP_NUMBER_4  &kp H   &kp J   &hm_shift LEFT_SHIFT K  &hm LC(L) L           &kp SEMI            &kp SQT
-&kp LSHFT  &kp Z            &kp X                    &hm LC(C) C             &hm LC(V) V             &hm COMMA B                                                    &kp HOME               &kp PG_UP                              &kp N   &kp M   &kp COMMA               &kp DOT               &hm LC(FSLH) SLASH  &kp RSHFT
-&mo 3      &kp GRAVE        &mt CAPS LC(LEFT_SHIFT)  &hm LA(LEFT) LEFT       &hm LA(RIGHT) RIGHT                          &lt 1 SPACE             &lt 1 DELETE      &kp END                &kp PG_DN  &kp ENTER  &kp BACKSPACE            &kp UP  &kp DOWN                &kp NON_US_BACKSLASH  &kp RBKT            &mo 3
+&kp EQUAL  &hm F2 NUMBER_1  &kp NUMBER_2             &hm F4 NUMBER_3         &kp N4                  &kp N5               &tog 2                                                                                       &mo 4            &kp N6  &kp N7  &kp N8                  &kp N9                &kp N0              &kp MINUS
+&kp TAB    &kp Q            &hm LC(LS(NUMBER_1)) W   &hm LC(LS(NUMBER_2)) E  &hm LC(LS(NUMBER_3)) R  &kp T                &mt LA(NUMBER_5) KP_N1                                                                       &kp KP_NUMBER_4  &kp Y   &kp U   &kp I                   &kp O                 &kp P               &kp LEFT_BRACKET
+&kp ESC    &kp A            &kp S                    &hm_shift LEFT_SHIFT D  &hm EQUAL F             &hm LC(LA(LS(G))) G  &kp KP_N2               &hm_shift LCTRL ESCAPE  &mt LALT LEFT_WIN      &kp RMETA  &kp RCTRL  &kp KP_NUMBER_4  &kp H   &kp J   &hm_shift LEFT_SHIFT K  &hm LC(L) L           &kp SEMI            &kp SQT
+&kp LSHFT  &kp Z            &kp X                    &hm LC(C) C             &hm LC(V) V             &hm COMMA B                                                          &kp HOME               &kp PG_UP                              &kp N   &kp M   &kp COMMA               &kp DOT               &hm LC(FSLH) SLASH  &kp RSHFT
+&mo 3      &kp GRAVE        &mt CAPS LC(LEFT_SHIFT)  &hm LA(LEFT) LEFT       &hm LA(RIGHT) RIGHT                          &lt 1 SPACE             &lt 1 DELETE            &kp END                &kp PG_DN  &kp ENTER  &kp BACKSPACE            &kp UP  &kp DOWN                &kp NON_US_BACKSLASH  &kp RBKT            &mo 3
             >;
         };
 
