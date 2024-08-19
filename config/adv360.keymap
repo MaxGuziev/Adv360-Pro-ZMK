@@ -76,7 +76,7 @@
 
         teems {
             bindings = <&kp LC(LA(LS(E)))>;
-            key-positions = <19 17>;
+            key-positions = <19 17 35>;
         };
 
         keypad_V2 {
