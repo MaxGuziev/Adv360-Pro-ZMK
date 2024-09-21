@@ -60,8 +60,8 @@
             key-positions = <33 31>;
         };
 
-        backspace {
-            bindings = <&kp BACKSPACE>;
+        game_layer {
+            bindings = <&tog 2>;
             key-positions = <33 34>;
         };
 
