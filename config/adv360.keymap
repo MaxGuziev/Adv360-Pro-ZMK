@@ -133,7 +133,7 @@
 &trans  &kp C_PREV  &kp C_PLAY_PAUSE  &kp C_NEXT     &kp C_VOLUME_DOWN  &kp C_VOL_UP  &none   &none   &trans  &trans  &trans  &trans   &trans   &trans
 &trans  &trans      &trans            &trans         &trans             &trans        &none   &mo 4   &trans                  &trans   &trans   &none    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans      &trans            &trans         &trans             &trans        &none   &none   &trans  &none   &none   &trans   &none    &none    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans      &trans            &kp LC(PG_UP)  &kp RC(PAGE_DOWN)  &trans        &trans  &trans  &trans  &trans  &trans  &trans   &trans   &trans   &trans  &trans
+&trans  &trans      &trans            &kp(LC(PG_UP))  &kp RC(PAGE_DOWN)  &trans        &trans  &trans  &trans  &trans  &trans  &trans   &trans   &trans   &trans  &trans
             >;
         };
 
@@ -150,10 +150,10 @@
         Layer_Excel {
             bindings = <
 &trans  &trans        &trans     &kp F4            &trans             &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LA(TAB)   &kp LC(W)  &kp LG(UP_ARROW)  &kp LA(TAB)        &hm LG(LC(T)) T    &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LC(HOME)  &trans     &kp LG(LEFT)      &kp LG(RIGHT)      &kp LC(LS(RIGHT))  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans             &trans
-&trans  &kp LC(END)   &trans     &kp LC(PAGE_UP)   &kp LC(PAGE_DOWN)  &kp LC(RS(DOWN))   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LC(LS(SLASH))  &trans
-&trans  &trans        &trans     &kp LA(LEFT)      &kp LA(RIGHT)      &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp(LA(TAB))   &kp(LC(W))  &kp(LG(UP_ARROW))  &kp(LA(TAB))        &hm LG(LC(T)) T    &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp(LC(HOME))  &trans     &kp(LG(LEFT))      &kp(LG(RIGHT))      &kp LC(LS(RIGHT))  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans             &trans
+&trans  &kp(LC(END))   &trans     &kp(LC(PAGE_UP))   &kp(LC(PAGE_DOWN))  &kp LC(RS(DOWN))   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LC(LS(SLASH))  &trans
+&trans  &trans        &trans     &kp(LA(LEFT))      &kp(LA(RIGHT))      &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
