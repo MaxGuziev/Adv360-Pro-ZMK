@@ -112,6 +112,16 @@
             bindings = <&kp LC(F)>;
             key-positions = <66 32>;
         };
+
+        ctrl_shift_home {
+            bindings = <&kp LC(LS(HOME))>;
+            key-positions = <66 33>;
+        };
+
+        ctrl_shif_end {
+            bindings = <&kp LC(LS(END))>;
+            key-positions = <66 51>;
+        };
     };
 
     keymap {
