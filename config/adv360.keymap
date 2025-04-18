@@ -114,11 +114,11 @@
 
         Layer_Work {
             bindings = <
-&trans  &trans            &trans           &kp F4                     &trans                       &trans             &trans                                      &trans  &trans  &trans                &trans                 &trans  &trans         &trans
-&trans  &kp LA(TAB)       &kp LC(W)        &kp F2                     &trans                       &kp LG(LC(T))      &trans                                      &trans  &trans  &trans                &trans                 &trans  &trans         &trans
-&trans  &hm LC(HOME) END  &hm END LC(END)  &mt LG(LC(LEFT)) LG(LEFT)  &mt LG(LC(RIGHT)) LG(RIGHT)  &kp LC(LS(RIGHT))  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &kp LS(MINUS)  &trans
-&trans  &kp LC(END)       &trans           &kp LC(PG_UP)              &kp LC(PAGE_DOWN)            &kp LC(LS(DOWN))                   &trans      &trans                  &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans  &trans         &trans
-&trans  &trans            &kp CAPS         &kp LA(LEFT)               &kp LA(RIGHT)                                   &trans  &trans  &trans      &trans  &trans  &trans          &trans                &trans                 &trans  &trans         &trans
+&trans  &trans             &trans               &kp F4                     &trans                       &trans             &trans                                      &trans  &trans  &trans                &trans                 &trans     &trans         &trans
+&trans  &kp LA(TAB)        &kp LC(W)            &kp F2                     &trans                       &kp LG(LC(T))      &trans                                      &trans  &trans  &trans                &trans                 &trans     &trans         &trans
+&trans  &hm LC(HOME) HOME  &hm LC(END) LC(END)  &mt LG(LC(LEFT)) LG(LEFT)  &mt LG(LC(RIGHT)) LG(RIGHT)  &kp LC(LS(RIGHT))  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS  &kp LS(MINUS)  &trans
+&trans  &trans             &trans               &kp LC(PG_UP)              &kp LC(PAGE_DOWN)            &kp LC(LS(DOWN))                   &trans      &trans                  &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans     &trans         &trans
+&trans  &trans             &kp CAPS             &kp LA(LEFT)               &kp LA(RIGHT)                                   &trans  &trans  &trans      &trans  &trans  &trans          &trans                &trans                 &trans     &trans         &trans
             >;
         };
 
