@@ -133,6 +133,11 @@
             bindings = <&kp LC(C)>;
             key-positions = <66 49>;
         };
+
+        change_lang_v2 {
+            bindings = <&kp LC(LEFT_SHIFT)>;
+            key-positions = <31 66>;
+        };
     };
 
     keymap {
