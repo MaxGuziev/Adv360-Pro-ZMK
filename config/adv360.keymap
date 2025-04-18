@@ -99,7 +99,7 @@
         };
 
         ctrl_shift_s {
-            bindings = <&kp LC(LS(A))>;
+            bindings = <&kp LC(LS(S))>;
             key-positions = <66 29 30>;
         };
 
