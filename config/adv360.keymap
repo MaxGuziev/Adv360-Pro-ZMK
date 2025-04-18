@@ -96,12 +96,12 @@
 
         Crtl_Shift_S {
             bindings = <&kp LC(LS(S))>;
-            key-positions = <66 30>;
+            key-positions = <30 65>;
         };
 
-        change_lang_v2_OK {
-            bindings = <&kp LC(LEFT_SHIFT)>;
-            key-positions = <66 32>;
+        space_f_to_+ {
+            bindings = <&kp LS(EQUAL)>;
+            key-positions = <32 65>;
         };
 
         ctrl_shift_home_OK {
@@ -110,16 +110,26 @@
             layers = <0>;
         };
 
-        ctrl_shif_end {
+        ctrl_shif_end_OK {
             bindings = <&kp LC(LS(END))>;
             key-positions = <51 65>;
             layers = <0>;
         };
 
-        change_lang_v2 {
+        space+d_to_change_lang_v2 {
             bindings = <&kp LC(LEFT_SHIFT)>;
             key-positions = <31 65>;
             slow-release;
+        };
+
+        under_score {
+            bindings = <&kp LS(EQUAL)>;
+            key-positions = <65 44>;
+        };
+
+        minus {
+            bindings = <&kp MINUS>;
+            key-positions = <65 43>;
         };
     };
 
@@ -142,7 +152,7 @@
 &trans  &kp LC(Q)          &kp LC(W)        &kp F2                     &trans                       &kp LG(LC(T))     &trans                                      &trans  &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans     &trans         &trans
 &trans  &hm HOME LC(HOME)  &hm END LC(END)  &mt LG(LC(LEFT)) LG(LEFT)  &mt LG(LC(RIGHT)) LG(RIGHT)  &kp LC(F)         &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS  &kp LS(MINUS)  &trans
 &trans  &trans             &trans           &kp LC(PG_UP)              &kp LC(PAGE_DOWN)            &kp LC(LS(DOWN))                  &trans      &trans                  &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans     &trans         &trans
-&trans  &trans             &kp CAPS         &kp LC(LS(LEFT))           &kp LA(LEFT)                                   &trans  &trans  &trans      &trans  &trans  &trans          &trans                &trans                 &trans     &trans         &trans
+&trans  &trans             &kp CAPS         &kp LC(LS(LEFT))           &kp LC(LS(RIGHT))                              &trans  &trans  &trans      &trans  &trans  &trans          &trans                &trans                 &trans     &trans         &trans
             >;
         };
 
