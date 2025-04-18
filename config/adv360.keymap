@@ -76,7 +76,8 @@
 
         teems {
             bindings = <&kp LC(LA(LS(E)))>;
-            key-positions = <19 17 66>;
+            key-positions = <19 17>;
+            slow-release;
         };
 
         keypad_V2 {
@@ -91,7 +92,7 @@
 
         crtl+a {
             bindings = <&kp LC(A)>;
-            key-positions = <66 29>;
+            key-positions = <29 65>;
         };
 
         Crtl_Shift_S {
@@ -106,7 +107,7 @@
 
         ctrl_shift_home_OK {
             bindings = <&kp LC(LS(HOME))>;
-            key-positions = <66 33>;
+            key-positions = <33 65>;
             layers = <0>;
         };
 
@@ -129,7 +130,7 @@
 
         minus {
             bindings = <&kp MINUS>;
-            key-positions = <65 43>;
+            key-positions = <65 42>;
         };
     };
 
