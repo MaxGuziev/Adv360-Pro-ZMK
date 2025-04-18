@@ -47,7 +47,7 @@
     combos {
         compatible = "zmk,combos";
 
-        ctr+shift+alt+tab {
+        ctr+shift+alt+tab_OK {
             bindings = <&kp LC(LA(LS(TAB)))>;
             key-positions = <15 16>;
         };
@@ -76,7 +76,7 @@
 
         teems_OK {
             bindings = <&kp LC(LA(LS(E)))>;
-            key-positions = <19 17>;
+            key-positions = <19 17 65>;
             slow-release;
         };
 
@@ -132,6 +132,11 @@
             bindings = <&kp MINUS>;
             key-positions = <65 43>;
         };
+
+        test {
+            bindings = <&kp A>;
+            key-positions = <23 24 25>;
+        };
     };
 
     keymap {
@@ -149,11 +154,11 @@
 
         Layer_Work {
             bindings = <
-&trans  &trans             &trans           &kp F4                     &trans                       &trans            &trans                                      &trans  &trans  &trans                &trans                 &trans     &trans         &trans
-&trans  &kp LC(Q)          &kp LC(W)        &kp F2                     &trans                       &kp LG(LC(T))     &trans                                      &trans  &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans     &trans         &trans
-&trans  &hm HOME LC(HOME)  &hm END LC(END)  &mt LG(LC(LEFT)) LG(LEFT)  &mt LG(LC(RIGHT)) LG(RIGHT)  &kp LC(F)         &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS  &kp LS(MINUS)  &trans
-&trans  &trans             &trans           &kp LC(PG_UP)              &kp LC(PAGE_DOWN)            &kp LC(LS(DOWN))                  &trans      &trans                  &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans     &trans         &trans
-&trans  &trans             &kp CAPS         &kp LC(LS(LEFT))           &kp LC(LS(RIGHT))                              &trans  &trans  &trans      &trans  &trans  &trans          &trans                &trans                 &trans     &trans         &trans
+&trans  &trans             &trans           &kp F4                     &trans                       &trans            &trans                                      &trans  &trans  &trans                &trans                 &trans     &trans          &trans
+&trans  &kp LC(Q)          &kp LC(W)        &kp F2                     &trans                       &kp LG(LC(T))     &trans                                      &trans  &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans     &trans          &trans
+&trans  &hm HOME LC(HOME)  &hm END LC(END)  &mt LG(LC(LEFT)) LG(LEFT)  &mt LG(LC(RIGHT)) LG(RIGHT)  &kp LC(F)         &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS  &kp UNDERSCORE  &trans
+&trans  &trans             &trans           &kp LC(PG_UP)              &kp LC(PAGE_DOWN)            &kp LC(LS(DOWN))                  &trans      &trans                  &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans     &trans          &trans
+&trans  &trans             &kp CAPS         &kp LC(LS(LEFT))           &kp LC(LS(RIGHT))                              &trans  &trans  &trans      &trans  &trans  &trans          &trans                &trans                 &trans     &trans          &trans
             >;
         };
 
