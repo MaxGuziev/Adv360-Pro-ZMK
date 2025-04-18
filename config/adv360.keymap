@@ -52,50 +52,50 @@
             key-positions = <15 16>;
         };
 
-        enter {
+        enter_OK {
             bindings = <&kp RETURN>;
             key-positions = <33 32>;
             layers = <0>;
             require-prior-idle-ms = <300>;
         };
 
-        tab {
+        tab_OK {
             bindings = <&kp TAB>;
             key-positions = <33 31>;
         };
 
-        game_layer {
+        game_layer_OK {
             bindings = <&tog 3>;
             key-positions = <33 34>;
         };
 
-        sublime_text {
+        sublime_text_OK {
             bindings = <&kp LC(LA(LS(S)))>;
             key-positions = <30 19>;
         };
 
-        teems {
+        teems_OK {
             bindings = <&kp LC(LA(LS(E)))>;
             key-positions = <19 17>;
             slow-release;
         };
 
-        keypad_V2 {
+        keypad_V2_OK {
             bindings = <&tog 6>;
             key-positions = <42 43 41>;
         };
 
-        lang_change {
+        lang_change_OK {
             bindings = <&kp LC(LEFT_SHIFT)>;
             key-positions = <32 30>;
         };
 
-        crtl+a {
+        crtl+a_OK {
             bindings = <&kp LC(A)>;
             key-positions = <29 65>;
         };
 
-        Crtl_Shift_S {
+        Crtl_Shift_S_OK {
             bindings = <&kp LC(LS(S))>;
             key-positions = <30 65>;
         };
@@ -124,13 +124,13 @@
         };
 
         under_score {
-            bindings = <&kp LS(EQUAL)>;
+            bindings = <&kp UNDERSCORE>;
             key-positions = <65 44>;
         };
 
         minus {
             bindings = <&kp MINUS>;
-            key-positions = <65 42>;
+            key-positions = <65 43>;
         };
     };
 
