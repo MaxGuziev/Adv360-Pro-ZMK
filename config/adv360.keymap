@@ -119,18 +119,17 @@
 
         space+d_to_change_lang_v2 {
             bindings = <&kp LC(LEFT_SHIFT)>;
-            key-positions = <31 65>;
-            slow-release;
+            key-positions = <65 31>;
         };
 
         under_score {
             bindings = <&kp UNDERSCORE>;
-            key-positions = <66 44>;
+            key-positions = <65 44>;
         };
 
         minus {
             bindings = <&kp MINUS>;
-            key-positions = <43 66>;
+            key-positions = <43 65>;
         };
 
         test {
