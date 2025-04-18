@@ -125,17 +125,27 @@
 
         under_score {
             bindings = <&kp UNDERSCORE>;
-            key-positions = <65 44>;
+            key-positions = <66 44>;
         };
 
         minus {
             bindings = <&kp MINUS>;
-            key-positions = <65 43>;
+            key-positions = <43 66>;
         };
 
         test {
             bindings = <&kp A>;
             key-positions = <23 24 25>;
+        };
+
+        test1 {
+            bindings = <&kp LS(MINUS)>;
+            key-positions = <26 65>;
+        };
+
+        test2 {
+            bindings = <&kp MINUS>;
+            key-positions = <65 27>;
         };
     };
 
