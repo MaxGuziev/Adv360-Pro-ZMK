@@ -107,6 +107,11 @@
             bindings = <&kp LC(S)>;
             key-positions = <66 30>;
         };
+
+        Crtl_F {
+            bindings = <&kp LC(F)>;
+            key-positions = <66 32>;
+        };
     };
 
     keymap {
