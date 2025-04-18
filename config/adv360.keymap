@@ -56,6 +56,7 @@
             bindings = <&kp RETURN>;
             key-positions = <33 32>;
             layers = <0>;
+            require-prior-idle-ms = <300>;
         };
 
         tab {
@@ -80,7 +81,7 @@
 
         teems {
             bindings = <&kp LC(LA(LS(E)))>;
-            key-positions = <19 17 35>;
+            key-positions = <19 17 66>;
         };
 
         keypad_V2 {
