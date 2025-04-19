@@ -89,7 +89,7 @@
             key-positions = <32 30>;
         };
 
-        crtl+a_OK {
+        crtl_a_OK {
             bindings = <&kp LC(A)>;
             key-positions = <29 65>;
         };
@@ -99,7 +99,7 @@
             key-positions = <30 65>;
         };
 
-        space_f_to_+ {
+        space_f_to_plus {
             bindings = <&kp LS(EQUAL)>;
             key-positions = <32 65>;
         };
@@ -115,7 +115,7 @@
             layers = <7>;
         };
 
-        space+d_to_change_lang_v2 {
+        space_d_to_change_lang_v2 {
             bindings = <&kp LC(LEFT_SHIFT)>;
             key-positions = <31 66>;
         };
@@ -145,12 +145,12 @@
             key-positions = <31 65>;
         };
 
-        Space+Z_to_ctrl+Z {
+        Space_Z_to_ctrl_Z {
             bindings = <&kp LC(Z)>;
             key-positions = <65 47>;
         };
 
-        Space+X_to_ctrl+X {
+        Space_X_to_ctrl_X {
             bindings = <&kp LC(X)>;
             key-positions = <65 48>;
         };
