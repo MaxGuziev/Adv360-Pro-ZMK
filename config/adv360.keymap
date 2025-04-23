@@ -55,6 +55,13 @@
             key-positions = <15 16>;
         };
 
+        double_d {
+            timeout-ms = <200>;
+            key-positions = <31 31>;
+            bindings = <&kp ESC>;
+            require-prior-idle-ms = <300>;
+        };
+
         enter_OK {
             bindings = <&kp RETURN>;
             key-positions = <33 32>;
