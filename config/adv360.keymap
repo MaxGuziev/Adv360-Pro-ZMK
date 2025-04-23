@@ -45,18 +45,23 @@
             quick-tap-ms = <175>;
             require-prior-idle-ms = <400>;
         };
-
+        
         td_z: td_z {
-            compatible     = "zmk,behavior-tap-dance";
+            compatible      = "zmk,behavior-tap-dance";
+            label           = "TD_Z";
+            #binding-cells  = <0>;
             tapping-term-ms = <200>;
             bindings        = <&kp Z>, <&kp ESC>;
         };
-    
+        
         td_x: td_x {
-            compatible     = "zmk,behavior-tap-dance";
+            compatible      = "zmk,behavior-tap-dance";
+            label           = "TD_X";
+            #binding-cells  = <0>;
             tapping-term-ms = <200>;
             bindings        = <&kp X>, <&kp TAB>;
         };
+
 
     };
 
