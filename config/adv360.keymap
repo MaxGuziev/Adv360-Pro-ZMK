@@ -31,7 +31,7 @@
             hold-while-undecided-linger;
             quick-tap-ms = <150>;
             hold-trigger-on-release;
-            require-prior-idle-ms = <200>;
+            require-prior-idle-ms = <400>;
         };
 
         hm_crtl: hm_crtl {
@@ -102,13 +102,13 @@
             key-positions = <30 65>;
         };
 
-        space_f_to_plus {
-            bindings = <&kp LS(EQUAL)>;
+        space_f_to_equal {
+            bindings = <&kp EQUAL>;
             key-positions = <32 65>;
         };
 
-        ctrl_shift_home_OK {
-            bindings = <&kp LC(HOME)>;
+        space_g_to_plus {
+            bindings = <&kp PLUS>;
             key-positions = <33 65>;
         };
 
@@ -149,17 +149,17 @@
         };
 
         Space_C_to_ctrl_C {
-            bindings = <&kp LC(C)>;
+            bindings = <&kp K_COPY>;
             key-positions = <65 49>;
         };
 
-        Space_V_to_ctrl_V {
-            bindings = <&kp LC(V)>;
+        Space_V_to_minus {
+            bindings = <&kp MINUS>;
             key-positions = <65 50>;
         };
 
-        Space_B_to_ctrl_B {
-            bindings = <&kp LC(B)>;
+        Space_B_to_underscore {
+            bindings = <&kp UNDERSCORE>;
             key-positions = <65 51>;
         };
     };
