@@ -43,7 +43,7 @@
             bindings = <&kp>, <&kp>;
 
             quick-tap-ms = <175>;
-            require-prior-idle-ms = <400>;
+            require-prior-idle-ms = <250>;
         };
 
         td_z: td_z {
@@ -179,11 +179,11 @@
 
         Default_Layer {
             bindings = <
-&kp EQUAL  &kp NUMBER_1  &kp NUMBER_2            &kp NUMBER_3            &kp N4                  &kp N5               &tog 6                                                                             &mo 4            &kp N6  &kp N7            &kp N8                   &kp N9                &kp N0              &kp MINUS
-&kp TAB    &kp Q         &hm LC(LS(NUMBER_1)) W  &hm LC(LS(NUMBER_2)) E  &hm LC(LS(NUMBER_3)) R  &hm LC(LA(LS(T))) T  &mt LA(NUMBER_5) KP_N1                                                             &kp KP_NUMBER_4  &kp Y   &kp U             &kp I                    &kp O                 &kp P               &kp LEFT_BRACKET
-&kp ESC    &hm EQUAL A   &kp S                   &hm_shift LEFT_SHIFT D  &hm_crtl LCTRL F        &hm LC(LA(LS(G))) G  &kp KP_N2               &kp LCTRL    &mt LALT LEFT_WIN      &kp RMETA  &kp RCTRL   &kp KP_NUMBER_4  &kp H   &hm_crtl RCTRL J  &hm_shift RIGHT_SHIFT K  &hm LC(L) L           &kp SEMI            &kp SQT
-&kp LSHFT  &kp Z         &kp X                   &hm UNDERSCORE C        &hm EQUAL V             &hm COMMA B                                               &kp HOME               &kp PG_UP                               &kp N   &kp M             &kp COMMA                &kp DOT               &hm LC(FSLH) SLASH  &kp RSHFT
-&mo 3      &kp GRAVE     &kp LC(LEFT_SHIFT)      &hm LA(LEFT) LEFT       &hm LA(RIGHT) RIGHT                          &kp SPACE               &lt 1 ENTER  &kp END                &kp PG_DN  &kp DELETE  &kp BACKSPACE            &kp UP            &kp DOWN                 &kp NON_US_BACKSLASH  &kp RBKT            &mo 3
+&kp EQUAL  &kp NUMBER_1  &kp NUMBER_2            &kp NUMBER_3            &kp N4                  &kp N5               &tog 6                                                                             &mo 4                            &kp N6  &kp N7            &kp N8                   &kp N9                &kp N0              &kp MINUS
+&kp TAB    &kp Q         &hm LC(LS(NUMBER_1)) W  &hm LC(LS(NUMBER_2)) E  &hm LC(LS(NUMBER_3)) R  &hm LC(LA(LS(T))) T  &mt LA(NUMBER_5) KP_N1                                                             &kp KP_NUMBER_4                  &kp Y   &kp U             &kp I                    &kp O                 &kp P               &kp LEFT_BRACKET
+&kp ESC    &hm EQUAL A   &kp S                   &hm_shift LEFT_SHIFT D  &hm_crtl LCTRL F        &hm LC(LA(LS(G))) G  &kp KP_N2               &kp LCTRL    &mt LALT LEFT_WIN      &kp RMETA  &kp RCTRL   &kp BACKSPACE                    &kp H   &hm_crtl RCTRL J  &hm_shift RIGHT_SHIFT K  &hm LC(L) L           &kp SEMI            &kp SQT
+&kp LSHFT  &kp Z         &kp X                   &hm UNDERSCORE C        &hm EQUAL V             &hm COMMA B                                               &kp HOME               &kp PG_UP                                               &kp N   &kp M             &kp COMMA                &kp DOT               &hm LC(FSLH) SLASH  &kp RSHFT
+&mo 3      &kp GRAVE     &kp LC(LEFT_SHIFT)      &hm LA(LEFT) LEFT       &hm LA(RIGHT) RIGHT                          &kp SPACE               &lt 1 ENTER  &kp END                &kp PG_DN  &kp DELETE  &hm_shift RIGHT_SHIFT BACKSPACE          &kp UP            &kp DOWN                 &kp NON_US_BACKSLASH  &kp RBKT            &mo 3
             >;
 
             label = "Base";
