@@ -31,7 +31,7 @@
             hold-while-undecided-linger;
             quick-tap-ms = <150>;
             hold-trigger-on-release;
-            require-prior-idle-ms = <400>;
+            require-prior-idle-ms = <250>;
         };
 
         hm_crtl: hm_crtl {
